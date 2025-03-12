@@ -22,11 +22,13 @@ const guitar_collection = [
     model: "GIT0048896-000",
     pickups: {
         neck: "Custom Bucker, Alnico III",
+        middle: "Sans",
         bridge: "Custom Bucker, Alnico III",
       },
     body: "Acajou",
     neck: "Érable",
     frets: 22,
+    vibrato : "Sans",
     picture: "../assets/lespaul.jpg"
   },
   // 3
@@ -52,6 +54,7 @@ const guitar_collection = [
     model: "022770341",
     pickups: {
         neck: "humbucker",
+        middle: "Sans",
         bridge: "humbucker",
       },
     body: "Acajou",
@@ -67,6 +70,7 @@ const guitar_collection = [
     model: "GIT0061904-002",
     pickups: {
         neck: "Player Series Alnico 5",
+        middle: "Sans",
         bridge: "Player Series Alnico 5",
       },
     body: "Boulot",
@@ -82,6 +86,7 @@ const guitar_collection = [
     model: "H7/WH",
     pickups: {
         neck: "humbuckers Alnico 2",
+        middle: "Sans",
         bridge: "humbuckers Alnico 2",
       },
     body: "Acajou",
@@ -96,11 +101,13 @@ const guitar_collection = [
     model: "GIT0061044-000",
     pickups: {
         neck: "ProBucker-2",
+        middle: "Sans",
         bridge: "ProBucker-3",
       },
     body: "Acajou",
     neck: "Acajou",
     frets: 22,
+    vibrato : "Sans",
     picture: "../assets/flyingv.jpg"
   },
   // 8
@@ -109,11 +116,14 @@ const guitar_collection = [
     brand: "Ibanez",
     model: "GIT0044509-000",
     pickups: {
+        neck: "Sans",
+        middle: "Sans",
         bridge: "AEQ-SP2",
       },
     body: "Acajou",
     neck: "Acajou",
     frets: 20,
+    vibrato : "Sans",
     picture: "../assets/12str.jpg"
   },
   // 9
@@ -121,12 +131,15 @@ const guitar_collection = [
     name: "000-28EC Eric Clapton Signature",
     brand: "Martin Guitars",
     model: "GIT0059278-000",
-    pickups: {
-        bridge: "En option..",
-      },
+    pickups:  {
+      neck: "Sans",
+      middle: "Sans",
+      bridge: "En option.."
+    },
     body: "Ébène",
     neck: "Épicéa",
     frets: 20,
+    vibrato : "Sans",
     picture: "../assets/acoustic.jpg"
   },
   // 10
@@ -134,9 +147,15 @@ const guitar_collection = [
     name: "CN-60S Natural WN",
     brand: "Fender",
     model: "455298",
+    pickups:  {
+      neck: "Sans",
+      middle: "Sans",
+      bridge: "Sans"
+    },
     body: "Acajou",
     neck: "Acajou",
     frets: 18,
+    vibrato : "Sans",
     picture: "../assets/classic.jpg"
   }
 ];
