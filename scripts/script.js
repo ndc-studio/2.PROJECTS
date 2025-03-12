@@ -116,5 +116,18 @@ const guitar_collection = [
     frets: 20,
     picture: "../assets/12str.jpg"
   },
+  // 9
+  {
+    name: "000-28EC Eric Clapton Signature",
+    brand: "Martin Guitars",
+    model: "GIT0059278-000",
+    pickups: {
+        bridge: "En option..",
+      },
+    body: "Ébène",
+    neck: "Épicéa",
+    frets: 20,
+    picture: "../assets/acoustic.jpg"
+  },
 
 ];
