@@ -54,11 +54,26 @@ const guitar_collection = [
         neck: "humbucker",
         bridge: "humbucker",
       },
-    body: "acajou",
-    neck: "acajou",
-    frets: 2,
+    body: "Acajou",
+    neck: "Acajou",
+    frets: 22,
     vibrato : "Tremolo Maestro Vibrola",
     picture: "../assets/strato.jpg"
+  },
+  // 5
+  {
+    name: "Player II Telecaster RW Transparent Cherry",
+    brand: "Fender",
+    model: "GIT0061904-002",
+    pickups: {
+        neck: "Player Series Alnico 5",
+        bridge: "Player Series Alnico 5",
+      },
+    body: "Boulot",
+    neck: "Erable",
+    frets: 22,
+    vibrato : "Tremolo Maestro Vibrola",
+    picture: "../assets/telecaster.jpg"
   },
 
 ];
