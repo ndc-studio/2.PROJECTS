@@ -14,5 +14,19 @@ const guitar_collection = [
     frets: 24,
     picture: ""
   },  
+  // 2
+  {
+    name: "Les Paul Custom Alpine White Gloss",
+    brand: "Gibson",
+    model: "GIT0048896-000",
+    pickups: {
+        neck: "Custom Bucker, Alnico III",
+        bridge: "Custom Bucker, Alnico III",
+      },
+    body: "Acajou",
+    neck: "Érable",
+    frets: 22,
+    picture: ""
+  },
 
 ];
