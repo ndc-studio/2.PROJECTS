@@ -89,4 +89,18 @@ const guitar_collection = [
     frets: 22,
     picture: "../assets/archtop.jpg"
   },
+  // 7
+  {
+    name: "Flying V Ruby Red Metallic",
+    brand: "Epiphone",
+    model: "GIT0061044-000",
+    pickups: {
+        neck: "ProBucker-2",
+        bridge: "ProBucker-3",
+      },
+    body: "Acajou",
+    neck: "Acajou",
+    frets: 22,
+    picture: "../assets/flyingv.jpg"
+  },
 ];
