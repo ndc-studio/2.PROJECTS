@@ -73,8 +73,8 @@ function deleteGuitar(index) {
  * @description - Boucle permettant de créer chaque guitare en itérant chaque object avec forEach
  * 
  * */
-guitarCollection.forEach(function(guitar) {
-  const card = createGuitarCard(guitar);
+guitarCollection.forEach(function(guitar, index) {
+  const card = createGuitarCard(guitar, index);
   const container = document.getElementById("guitar-container");
   container.appendChild(card);
 });
@@ -86,8 +86,8 @@ guitarCollection.forEach(function(guitar) {
 function display(filtered) {
   const container = document.getElementById("guitar-container");
   container.innerHTML = "";
-  filtered.forEach(function(guitar) {
-  const card = createGuitarCard(guitar);
+  filtered.forEach(function(guitar, index) {
+  const card = createGuitarCard(guitar, index);
   container.appendChild(card);
   });
 }
