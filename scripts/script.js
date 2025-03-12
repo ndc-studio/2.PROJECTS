@@ -103,4 +103,18 @@ const guitar_collection = [
     frets: 22,
     picture: "../assets/flyingv.jpg"
   },
+  // 8
+  {
+    name: "Artwood Vintage 12-String",
+    brand: "Ibanez",
+    model: "GIT0044509-000",
+    pickups: {
+        bridge: "AEQ-SP2",
+      },
+    body: "Acajou",
+    neck: "Acajou",
+    frets: 20,
+    picture: "../assets/12str.jpg"
+  },
+
 ];
