@@ -129,5 +129,14 @@ const guitar_collection = [
     frets: 20,
     picture: "../assets/acoustic.jpg"
   },
-
+  // 10
+  {
+    name: "CN-60S Natural WN",
+    brand: "Fender",
+    model: "455298",
+    body: "Acajou",
+    neck: "Acajou",
+    frets: 18,
+    picture: "../assets/classic.jpg"
+  }
 ];
