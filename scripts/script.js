@@ -70,10 +70,23 @@ const guitar_collection = [
         bridge: "Player Series Alnico 5",
       },
     body: "Boulot",
-    neck: "Erable",
+    neck: "Érable",
     frets: 22,
     vibrato : "Tremolo Maestro Vibrola",
     picture: "../assets/telecaster.jpg"
   },
-
+  // 6
+  {
+    name: "Guitars Archtop White Larry Carlton",
+    brand: "Sire",
+    model: "H7/WH",
+    pickups: {
+        neck: "humbuckers Alnico 2",
+        bridge: "humbuckers Alnico 2",
+      },
+    body: "Acajou",
+    neck: "Érable",
+    frets: 22,
+    picture: "../assets/archtop.jpg"
+  },
 ];
