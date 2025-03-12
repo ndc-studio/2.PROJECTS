@@ -45,5 +45,20 @@ const guitar_collection = [
     vibrato : "Tremolo",
     picture: "../assets/strato.jpg"
   },
+  // 4
+  {
+    name: "SG Angus Young Signature Model",
+    brand: "Gibson",
+    model: "022770341",
+    pickups: {
+        neck: "humbucker",
+        bridge: "humbucker",
+      },
+    body: "acajou",
+    neck: "acajou",
+    frets: 2,
+    vibrato : "Tremolo Maestro Vibrola",
+    picture: "../assets/strato.jpg"
+  },
 
 ];
