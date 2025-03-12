@@ -58,7 +58,7 @@ const guitar_collection = [
     neck: "Acajou",
     frets: 22,
     vibrato : "Tremolo Maestro Vibrola",
-    picture: "../assets/strato.jpg"
+    picture: "../assets/sg.jpg"
   },
   // 5
   {
