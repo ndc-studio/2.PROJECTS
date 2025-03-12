@@ -1,3 +1,8 @@
+/**
+ * @const {object} guitarCollection
+ * @description - Contient les 10 objects et leurs propriétés.
+ * 
+ * */
 const guitarCollection = [
   // 1
   {
@@ -13,7 +18,8 @@ const guitarCollection = [
     neck: "Érable",
     frets: 24,
     vibrato : "Floyd Rose",
-    picture: "../assets/jem.png"
+    picture: "../assets/jem.png",
+    type: "electric"
   },
   // 2
   {
@@ -29,7 +35,8 @@ const guitarCollection = [
     neck: "Érable",
     frets: 22,
     vibrato : "Sans",
-    picture: "../assets/lespaul.jpg"
+    picture: "../assets/lespaul.png",
+    type: "electric"
   },
   // 3
   {
@@ -45,7 +52,8 @@ const guitarCollection = [
     neck: "Érable",
     frets: 22,
     vibrato : "Tremolo",
-    picture: "../assets/strato.jpg"
+    picture: "../assets/strato.png",
+    type: "electric"
   },
   // 4
   {
@@ -61,7 +69,8 @@ const guitarCollection = [
     neck: "Acajou",
     frets: 22,
     vibrato : "Tremolo Maestro Vibrola",
-    picture: "../assets/sg.jpg"
+    picture: "../assets/sg.png",
+    type: "electric"
   },
   // 5
   {
@@ -77,7 +86,8 @@ const guitarCollection = [
     neck: "Érable",
     frets: 22,
     vibrato : "Tremolo Maestro Vibrola",
-    picture: "../assets/telecaster.jpg"
+    picture: "../assets/telecaster.png",
+    type: "electric"
   },
   // 6
   {
@@ -92,7 +102,8 @@ const guitarCollection = [
     body: "Acajou",
     neck: "Érable",
     frets: 22,
-    picture: "../assets/archtop.jpg"
+    picture: "../assets/archtop.png",
+    type: "electric"
   },
   // 7
   {
@@ -108,7 +119,8 @@ const guitarCollection = [
     neck: "Acajou",
     frets: 22,
     vibrato : "Sans",
-    picture: "../assets/flyingv.jpg"
+    picture: "../assets/flyingv.png",
+    type: "electric"
   },
   // 8
   {
@@ -124,7 +136,8 @@ const guitarCollection = [
     neck: "Acajou",
     frets: 20,
     vibrato : "Sans",
-    picture: "../assets/12str.jpg"
+    picture: "../assets/12str.png",
+    type: "acoustic"
   },
   // 9
   {
@@ -140,7 +153,8 @@ const guitarCollection = [
     neck: "Épicéa",
     frets: 20,
     vibrato : "Sans",
-    picture: "../assets/acoustic.png"
+    picture: "../assets/acoustic.png",
+    type: "acoustic"
   },
   // 10
   {
@@ -156,6 +170,7 @@ const guitarCollection = [
     neck: "Acajou",
     frets: 18,
     vibrato : "Sans",
-    picture: "../assets/classic.jpg"
+    picture: "../assets/classic.png",
+    type: "acoustic"
   }
 ];
