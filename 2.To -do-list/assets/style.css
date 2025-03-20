@@ -26,6 +26,7 @@ body {
     grid-template-columns: 60px 1fr 20px 1fr 60px;
     grid-template-rows: 80px 1fr 80px;
 }
+
 header {
     grid-column: 2 / 5;
     grid-row: 1 / 2;
@@ -71,12 +72,8 @@ main {
 
 #list {
     width: 90%;
-    object-fit: contain;
-    margin: 0 auto;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    position: relative;
-    top: 15px;
 }
 
 li {
@@ -84,11 +81,12 @@ li {
     color: rgb(54, 54, 54);
     background-color: rgb(214, 214, 214);
     margin: 25px;
-    padding: 50px;
+    padding-top:  20px;
+    padding-bottom: 50px;
     width: 100%;
     display: block;
     word-wrap: break-word;
-    max-width: 90%;
+    max-width: 100%;
     text-align: center;
     list-style-type: none;
     border: #161616 solid 2px;

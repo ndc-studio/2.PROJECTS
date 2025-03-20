@@ -1,3 +1,5 @@
+import { saveTheme, loadTheme } from "./storage.js";
+
 export function checkedListColor(elem, item, color1, color2, textDecoration) {
     if (item.checked) {
         elem.style.textDecoration = textDecoration;
@@ -11,7 +13,9 @@ export function checkedListColor(elem, item, color1, color2, textDecoration) {
 export function colorMode() {
     const colorMode = document.getElementById('color-mode');
 
-    colorMode.addEventListener('change', function() {
+    loadTheme();
+
+    colorMode.addEventListener('change', function () {
         const selectedOption = colorMode.options[colorMode.selectedIndex];
         
         if (selectedOption.id === 'dark-mode') {
@@ -21,9 +25,6 @@ export function colorMode() {
             document.body.classList.remove('dark');
             document.body.classList.add('light');
         }
-    });
-
-    document.addEventListener('DOMContentLoaded', function () {
-        document.body.classList.add('light'); 
+        saveTheme();
     });
 }

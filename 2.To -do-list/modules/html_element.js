@@ -6,10 +6,8 @@ export function addText(elem, content) {
     elem.textContent = content;
 }
 
-export function removeItems(items, parent) {
-    for (let i = 0; i < items.length; i++) {
-        parent.removeChild(items[i]);
-    }
+export function removeItems(item, parent) {
+        parent.removeChild(item);
 }
 
 export function deleteAllLi(parent, array) {   
